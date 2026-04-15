@@ -16,3 +16,6 @@ artifacts/
 # Cursor
 .cursor/
 
+# Fichiers CAD locaux (DWG, sauvegardes)
+cad/
+
