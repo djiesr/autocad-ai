@@ -1,0 +1,11 @@
+Notes rapides (dev)
+
+- Le plugin est un .dll chargé via la commande AutoCAD `NETLOAD`.
+- Les références `AcCoreMgd/AcDbMgd/AcMgd` doivent pointer vers les DLL AutoCAD installées.
+- Variable MSBuild conseillée:
+  - `ACAD_DLLS = C:\Program Files\Autodesk\AutoCAD 2025\`
+
+Commandes:
+- `AIWORKSPACE`: crée `.autocad-ai` à côté du DWG (ou fallback Documents) et écrit les chemins dans la ligne de commande.
+- `AIOPENWS`: ouvre le workspace dans l’explorateur.
+

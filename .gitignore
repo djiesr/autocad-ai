@@ -1,0 +1,18 @@
+# Build outputs
+**/bin/
+**/obj/
+artifacts/
+
+# Logs / workspace outputs
+**/logs/
+.autocad-ai/
+
+# User-specific files
+.vs/
+*.user
+*.suo
+*.cache
+
+# Cursor
+.cursor/
+
